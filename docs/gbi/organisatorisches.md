@@ -2,7 +2,7 @@
 
 Wichtige Links:
 
-* [Ilias](s.kit.edu/gbi)
+* [Ilias](https://s.kit.edu/gbi)
 * [Discord](https://discord.gg/M6XdSkNd)
 
 Eine Aufzeichnung der Vorlesung sowie die Folien und das Skript sind auf [Ilias](s.kit.edu/gbi) verfügbar.

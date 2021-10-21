@@ -25,6 +25,7 @@ repo_url: https://www.github.com/Wuelle/uniaufschriebe
 repo_name: Wuelle/uniaufschriebe
 
 markdown_extensions:
+  - abbr
   - tables
   - attr_list
   - md_in_html
@@ -34,6 +35,7 @@ markdown_extensions:
   - pymdownx.snippets
   - admonition
   - pymdownx.details
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
@@ -48,13 +50,15 @@ plugins:
   - search
 
 nav:
-    - Home: 'index.md'
-    - 'Lineare Algebra':
-        - 'Organisatorisches': 'la/organisatorisches.md'
-        - 'Aussagenlogik': 'la/aussagenlogik.md'
-    - 'Höhere Mathematik':
-        - 'Organisatorisches': 'hm/organisatorisches.md'
-    - 'Grundbegriffe der Informatik':
-        - 'Organisatorisches': 'gbi/organisatorisches.md'
-    - 'Programmieren':
-        - 'Organisatorisches': 'proggen/organisatorisches.md'
+    - Home: "index.md"
+    - "Lineare Algebra":
+        - "Organisatorisches": "la/organisatorisches.md"
+        - "Aussagenlogik": "la/aussagenlogik.md"
+    - "Höhere Mathematik":
+        - "Organisatorisches": "hm/organisatorisches.md"
+        - "Reelle Zahlen": "hm/reelle_zahlen.md"
+    - "Grundbegriffe der Informatik":
+        - "Organisatorisches": "gbi/organisatorisches.md"
+        - "Grundbegriffe": "gbi/grundbegriffe.md"
+    - "Programmieren":
+        - "Organisatorisches": "proggen/organisatorisches.md"
