@@ -16,7 +16,6 @@ theme:
             name: Switch to light mode
     features:
         - navigation.tracking
-        - navigation.sections
         - navigation.instant
         - instant
     icon:
@@ -47,3 +46,15 @@ extra_javascript:
 plugins:
   - git-revision-date-localized
   - search
+
+nav:
+    - Home: 'index.md'
+    - 'Lineare Algebra':
+        - 'Organisatorisches': 'la/organisatorisches.md'
+        - 'Aussagenlogik': 'la/aussagenlogik.md'
+    - 'Höhere Mathematik':
+        - 'Organisatorisches': 'hm/organisatorisches.md'
+    - 'Grundbegriffe der Informatik':
+        - 'Organisatorisches': 'gbi/organisatorisches.md'
+    - 'Programmieren':
+        - 'Organisatorisches': 'proggen/organisatorisches.md'
