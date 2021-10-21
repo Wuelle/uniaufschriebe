@@ -1,4 +1,4 @@
-site_name: Unistoff
+site_name: Mein Studium
 
 theme:
     name: material
@@ -22,10 +22,11 @@ theme:
     icon:
         repo: fontawesome/brands/github
 
-repo_url: https://www.github.com/Wuelle/array_docs
-repo_name: Wuelle/array_docs
+repo_url: https://www.github.com/Wuelle/uniaufschriebe
+repo_name: Wuelle/uniaufschriebe
 
 markdown_extensions:
+  - tables
   - attr_list
   - md_in_html
   - pymdownx.highlight

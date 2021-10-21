@@ -1,6 +1,7 @@
 # Organisatorisches
 
 Wichtige Links:
+
 * [Ilias](s.kit.edu/gbi)
 * [Discord](https://discord.gg/M6XdSkNd)
 
