@@ -97,18 +97,14 @@ Sei $M \subseteq \mathbb{R}$
 
 * $M$ heißt **nach oben beschränkt** $:\leftrightarrow \exists \gamma \in \mathbb{R} \forall x \in M: x \leq \gamma$.
 IdF. heißt $\gamma$ eine **obere Schranke** von $M$.
-*[IdF]: In diesem Fall
 
 * Ist $\gamma$ eine o.S von $M$ und gilt $\gamma \leq \delta$ für jede o.S $\delta$ von $M$, so heißt $\gamma$ das **Supremum** von $M$. 
-*[o.S]: Obere Schranke
 
 * $M$ heißt **nach unten beschränkt** $:\leftrightarrow \exists \gamma \in \mathbb{R} \forall x \in M: x \geq \gamma$.
 IdF heißt $\gamma$ eine **untere Schranke** von $M$.
-*[IdF]: In diesem Fall
 
 * Ist $\gamma$ eine u.S von $M$ und gilt $\gamma \geq \delta$ für jede u.S $\delta$ von $M$, so heißt
 $\gamma$ das **Infimum** von $M$. 
-*[u.S]: Untere Schranke
 
 !!! note "Schreibweise" 
 	$\gamma = \sup M$ bzw $\gamma = \inf M$
@@ -132,11 +128,9 @@ bzw $\inf M$ das Minimum von $M$.
 	$\min M$ bzw $\max M$.<br>
 
 ### Beispiel
-Es sei $M = (1, 2)$. Es ist $\sup M = 2 \notin M$ und $\inf M = 1 \notin M$, dh. $M$ hat kein Maximum und kein Maximum.
+Es sei $M = (1, 2)$. Es ist $\sup M = 2 \notin M$ und $\inf M = 1 \notin M$, dh $M$ hat kein Maximum und kein Maximum.
 
-
-
-
-
-
-
+*[IdF]: In diesem Fall
+*[o.S]: Obere Schranke
+*[u.S]: Untere Schranke
+*[dh]: das heißt
