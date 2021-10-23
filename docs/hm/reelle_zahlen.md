@@ -130,7 +130,34 @@ bzw $\inf M$ das Minimum von $M$.
 ### Beispiel
 Es sei $M = (1, 2)$. Es ist $\sup M = 2 \notin M$ und $\inf M = 1 \notin M$, dh $M$ hat kein Maximum und kein Maximum.
 
+Weitere Beispiele
+
+* $M = (1, 2]$. Hier $\sup M = 2 \in M$ also ist $\max M = 2$
+* $M = (3, \infty)$. Hier ist $M$ nach oben unbeschränkt. $\inf M = 3 \notin M$ also hat $M$ weder Minimum noch Maximum.
+* $M = \emptyset$. Jedes $\gamma \in \mathbb{R}$ ist eine u.S und eine o.S von $M$.
+
+## Vollständigkeitsaxiom
+15. Ist $\emptyset \neq M \subseteq \mathbb{R}$ und ist $M$ nach oben beschränkt, so ist $\sup M$ vorhanden.
+
+!!! note "Satz 1.1"
+	Ist $\emptyset \neq M \subseteq \mathbb{R}$ und $M$ ist nach unten beschränkt, so ist $\inf M$ vorhanden.
+	Beweis folgt in der Übung.
+
+Es sei $M \subseteq \mathbb{R}$. $M$ heißt **beschränkt** $:\leftrightarrow$ $M$ ist nach oben und nach unten beschränkt.
+Äquivalent ist folgende Eigenschaft: $\exists c \geq 0 \forall x \in M: |x| \leq c$
+
+!!! note "Satz 1.2"
+	Sei $\emptyset \neq B \subseteq A \subseteq \mathbb{R}$. Es gelten folgende Aussagen:
+
+	* Wenn $A$ beschränkt ist, dann ist $\inf M \leq \sup M$.
+	* Wenn $A$ nach oben bzw. nach unten beschränkt ist, so ist $B$ ebenfalls nach oben bzw. unten beschränkt und $\sup B \leq \sup A$ und $\inf B \geq \inf A$.
+	* $A$ sei nach oben beschränkt und $\gamma$ sei eine o.S von $A$. Dann gilt $\gamma = \sup A \leftrightarrow \forall \epsilon > 0 \exists x \in A: x > \gamma - \epsilon$
+	* $A$ sei nach unten beschränkt und $\gamma$ eine u.S von $A$. Dann gilt $\gamma = \inf A \leftrightarrow \forall \epsilon > 0 \exists x \in A: x < \gamma + \epsilon$
+
+
 *[IdF]: In diesem Fall
 *[o.S]: Obere Schranke
 *[u.S]: Untere Schranke
 *[dh]: das heißt
+*[bzw]: beziehungsweise
+*[I.M]: Induktionsmenge
