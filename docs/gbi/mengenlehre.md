@@ -56,10 +56,14 @@ $A$ die nicht in $B$ enthalten sind".
 ## Kardinalität
 Die Kardinalität einer Menge $A$ beschreibt die Anzahl ihrer Elemente, wird vorerst nur für 
 endliche Menge definiert. Notiert wird diese als $|A|$.
+**Beispiele**
 
-## Alphabet
-Ein Alphabet ist eine endliche, nichtleere Menge von Zeichen oder Symbolen.
-Reale Beispiele dafür sind ASCII oder Unicode.
+* $|\emptyset| = 0$
+* $|\{1,2,3\}| = 3$
+* $|\{1,2,3,3,3\}| = 3$
+
+Für alle endlichen Mengen $A$ und $B$ gilt<br>
+$|A \cup B| = |A| + |B| - |A \cap B|$
 
 ## Paare
 Es seien $A$ und $B$ zwei Mengen und $a \in A$ und $b \in B$.
@@ -72,6 +76,7 @@ Verallgemeinerung mit mehr Menge, zum Beispiel drei:
 $M_1 \times M_2 \times M_3 = \{(m_1, m_2, m_3) | m_1 \in M_1 \land m_2 \in M_2 \land m_3 \in M_3\}$.
 <br>
 Außerdem gilt $M^{2} = M \times M$.
+Da $|\emptyset| = 0$ gilt $A \times \emptyset = \emptyset$
 
 ## Relationen
 Relationen sind Teilmengen aller Paare, das heißt $R \subseteq A \times B$ ist eine Relation.
@@ -81,7 +86,7 @@ Relationen sind Teilmengen aller Paare, das heißt $R \subseteq A \times B$ ist 
 * $R$ ist linkstotal oder injektiv, wenn für jedes $a \in A$ ein $b \in B$ existiert mit $(a, b) \in r$
 * $R$ ist rechtseindeutig oder surjektiv, wenn es für kein $a \in A$ zwei $b_1 \in B$ und $b_2 \in B$ mit $b_1 \neq b_2$ gibt, so dass $(a, b_1) \in R$ und $(a, b_2) \in R$.
 * $R$ ist rechtstotal wenn $\forall b \in B \exists a \in A: (a, b) \in R$.
-* $R$ ist linkseindeutig wenn $\forall(a_1, b_1) \in R$ HIER WEITER
+* $R$ ist linkseindeutig wenn $\forall b \in B$ **höchstens** ein $a \in A$ existiert, sodass $(a, b) \in R$.
 
 Relationen die linkstotal und rechtseindeutig sind heißen **Abbildungen** oder **Funktionen**. Sie
 werden als bijektiv bezeichnet.
@@ -89,4 +94,16 @@ werden als bijektiv bezeichnet.
 ## Abbildungen
 Abbildungen sind bijektive Relationen. Sie werden wie folgt definiert:
 $f: A \rightarrow B, n \rightarrow F(n)$.
+
+## Potenzmengen 
+Potenzmengen sind alle Teilmengen einer Menge.<br>
+Sie wird geschrieben als $2^M$ oder $P(M)$.
+
+## Beweisschema: Gleichheit von Mengen
+Da die Identität einer Menge allein durch ihre Elemente gegeben ist, kann $A=B$ bewiesen werden
+indem gezeigt wird dass $A \subseteq B$ und $B \subseteq A$.
+
+## Menge von Abbildungen
+Für $A, B$ ist $A^B = \{f | f$ Abb. von $A$  nach $B \}$ also die Menge aller Abbildungen von $A$ nach $B$.	
+
 

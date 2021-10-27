@@ -63,5 +63,7 @@ nav:
         - "Organisatorisches": "gbi/organisatorisches.md"
         - "Grundbegriffe": "gbi/grundbegriffe.md"
         - "Mengenlehre": "gbi/mengenlehre.md"
+        - "Alphabete und Wörter": "gbi/woerter.md"
     - "Programmieren":
         - "Organisatorisches": "proggen/organisatorisches.md"
+        - "Grundlagen": "proggen/grundlagen.md"
