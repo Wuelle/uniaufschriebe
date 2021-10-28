@@ -59,6 +59,7 @@ nav:
         - "Aussagenlogik": "hm/aussagenlogik.md"
         - "Reelle Zahlen": "hm/reelle_zahlen.md"
         - "Natürliche Zahlen": "hm/natürliche_zahlen.md"
+        - "Folgen und Konvergenz": "hm/folgen_und_konvergenz.md"
     - "Grundbegriffe der Informatik":
         - "Organisatorisches": "gbi/organisatorisches.md"
         - "Grundbegriffe": "gbi/grundbegriffe.md"
