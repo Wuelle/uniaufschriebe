@@ -24,7 +24,12 @@ Das leere Wort ist nicht die leere Menge. $|\{\epsilon\}| = 1$.
 
 ## Konkatenation von Wörtern
 Wörter können aneinandergeschrieben werden, üblicherweise mit dem Operatorsymbol $\cdot$.<br>
-$SCHRANK \cdot FACH = SCHRANKFACH$.
+$SCHRANK \cdot FACH = SCHRANKFACH$. Das leere Wortist das neutrale Element der Konkatenation,
+also $SCHRANK \cdot \epsilon = SCHRANK$. 
+Konkatenation ist **assoziativ**, aber nicht **kommutativ**.<br>
+$w^n = w \cdot \w \cdot \ldots \cdot \w$.
+
+
 
 
 *[zb]: zum Beispiel
