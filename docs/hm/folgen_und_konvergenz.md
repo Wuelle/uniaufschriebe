@@ -32,7 +32,7 @@ Sei $(a_n)$ eine Folge und $M$ die Bildmenge von $(a_n)$.
 
 !!! note "Definition"
 	Sei $A(n)$ eine $n \in \mathbb{N}$ definierte Aussage. $A(n)$ gilt für **fast** alle $n \in \mathbb{N}$ bedeutet
-	$\exists n_0 \in \mathbb{N} \foral n \geq n_0: A(n)$ ist wahr. (also ist $A(N)$ nur für eine endliche Menge $n$ unwahr)
+	$\exists n_0 \in \mathbb{N} \forall n \geq n_0: A(n)$ ist wahr. (also ist $A(N)$ nur für eine endliche Menge $n$ unwahr)
 
 !!! note "Definition"
 	Es sie $a \in \mathbb{R}$ und $\epsilon > 0$. Das Intervall $U_{\epsilon}(a) := (a-\epsilon, a+\epsilon)$

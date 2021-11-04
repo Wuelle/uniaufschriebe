@@ -29,6 +29,14 @@ also $SCHRANK \cdot \epsilon = SCHRANK$.
 Konkatenation ist **assoziativ**, aber nicht **kommutativ**.<br>
 $w^n = w \cdot \w \cdot \ldots \cdot \w$.
 
+## Spiegeln von Wörtern
+Die Funktion $f$ dreht die Folge der Symbole in einem Wort $w$ um. Dabei gilt:
+
+* $f(\epsilon) = \epsilon
+* $f(a \cdot b) = b \cdot f(a)$ wenn $|b| = 1$
+
+Mit diesen beiden Regeln kann jedes Wort rekursiv gespiegelt werden.
+
 
 
 

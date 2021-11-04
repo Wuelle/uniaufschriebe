@@ -4,6 +4,7 @@ Wichtige Links:
 
 * [Ilias](https://s.kit.edu/gbi)
 * [Discord](https://discord.gg/M6XdSkNd)
+* [Archiv](http://gbi.ira.uka.de/)
 
 Eine Aufzeichnung der Vorlesung sowie die Folien und das Skript sind auf [Ilias](s.kit.edu/gbi) verfügbar.
 
