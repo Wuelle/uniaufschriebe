@@ -84,8 +84,8 @@ Relationen sind Teilmengen aller Paare, das heißt $R \subseteq A \times B$ ist 
 ### Eigenschaften
 
 * $R$ ist linkstotal, wenn für jedes $a \in A$ ein $b \in B$ existiert mit $(a, b) \in R$
-* $R$ ist rechtseindeutig oder surjektiv, wenn es für kein $a \in A$ zwei $b_1 \in B$ und $b_2 \in B$ mit $b_1 \neq b_2$ gibt, so dass $(a, b_1) \in R$ und $(a, b_2) \in R$.
-* $R$ ist rechtstotal wenn $\forall b \in B \exists a \in A: (a, b) \in R$.
+* $R$ ist rechtseindeutig, wenn es für kein $a \in A$ zwei $b_1 \in B$ und $b_2 \in B$ mit $b_1 \neq b_2$ gibt, so dass $(a, b_1) \in R$ und $(a, b_2) \in R$.
+* $R$ ist rechtstotal oder surjektiv wenn $\forall b \in B \exists a \in A: (a, b) \in R$.
 * $R$ ist linkseindeutig oder injektiv wenn $\forall b \in B$ **höchstens** ein $a \in A$ existiert, sodass $(a, b) \in R$.
 
 Relationen die linkstotal und rechtseindeutig sind heißen **Abbildungen** oder **Funktionen**. Sie
