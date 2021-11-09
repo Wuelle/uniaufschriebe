@@ -295,6 +295,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../la/gruppen_ringe_und_koerper/" class="md-nav__link">
+        Gruppen, Ringe und Körper
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -365,6 +379,34 @@
     <li class="md-nav__item">
       <a href="../../hm/reelle_zahlen/" class="md-nav__link">
         Reelle Zahlen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hm/nat%C3%BCrliche_zahlen/" class="md-nav__link">
+        Natürliche Zahlen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hm/folgen_und_konvergenz/" class="md-nav__link">
+        Folgen und Konvergenz
       </a>
     </li>
   
@@ -495,13 +537,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#alphabet" class="md-nav__link">
-    Alphabet
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#paare" class="md-nav__link">
     Paare
   </a>
@@ -535,10 +570,45 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#potenzmengen" class="md-nav__link">
+    Potenzmengen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beweisschema-gleichheit-von-mengen" class="md-nav__link">
+    Beweisschema: Gleichheit von Mengen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menge-von-abbildungen" class="md-nav__link">
+    Menge von Abbildungen
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../woerter/" class="md-nav__link">
+        Alphabete und Wörter
+      </a>
     </li>
   
 
@@ -586,6 +656,20 @@
     <li class="md-nav__item">
       <a href="../../proggen/organisatorisches/" class="md-nav__link">
         Organisatorisches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proggen/grundlagen/" class="md-nav__link">
+        Grundlagen
       </a>
     </li>
   
@@ -645,13 +729,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#alphabet" class="md-nav__link">
-    Alphabet
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#paare" class="md-nav__link">
     Paare
   </a>
@@ -681,6 +758,27 @@
         <li class="md-nav__item">
   <a href="#abbildungen" class="md-nav__link">
     Abbildungen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#potenzmengen" class="md-nav__link">
+    Potenzmengen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beweisschema-gleichheit-von-mengen" class="md-nav__link">
+    Beweisschema: Gleichheit von Mengen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menge-von-abbildungen" class="md-nav__link">
+    Menge von Abbildungen
   </a>
   
 </li>
@@ -748,10 +846,15 @@ Beispiel: <span class="arithmatex">\(\{1, 2, 3\} \cap \{3, 4, 5\} = \{3\}\)</spa
 <span class="arithmatex">\(A\)</span> die nicht in <span class="arithmatex">\(B\)</span> enthalten sind".</p>
 <h2 id="kardinalitat">Kardinalität</h2>
 <p>Die Kardinalität einer Menge <span class="arithmatex">\(A\)</span> beschreibt die Anzahl ihrer Elemente, wird vorerst nur für 
-endliche Menge definiert. Notiert wird diese als <span class="arithmatex">\(|A|\)</span>.</p>
-<h2 id="alphabet">Alphabet</h2>
-<p>Ein Alphabet ist eine endliche, nichtleere Menge von Zeichen oder Symbolen.
-Reale Beispiele dafür sind ASCII oder Unicode.</p>
+endliche Menge definiert. Notiert wird diese als <span class="arithmatex">\(|A|\)</span>.
+<strong>Beispiele</strong></p>
+<ul>
+<li><span class="arithmatex">\(|\emptyset| = 0\)</span></li>
+<li><span class="arithmatex">\(|\{1,2,3\}| = 3\)</span></li>
+<li><span class="arithmatex">\(|\{1,2,3,3,3\}| = 3\)</span></li>
+</ul>
+<p>Für alle endlichen Mengen <span class="arithmatex">\(A\)</span> und <span class="arithmatex">\(B\)</span> gilt<br>
+<span class="arithmatex">\(|A \cup B| = |A| + |B| - |A \cap B|\)</span></p>
 <h2 id="paare">Paare</h2>
 <p>Es seien <span class="arithmatex">\(A\)</span> und <span class="arithmatex">\(B\)</span> zwei Mengen und <span class="arithmatex">\(a \in A\)</span> und <span class="arithmatex">\(b \in B\)</span>.
 Das Tupel <span class="arithmatex">\((a, b)\)</span> wird ein paar genannt sind.
@@ -761,21 +864,30 @@ Zwei Paare <span class="arithmatex">\((a_1, b_1)\)</span> und <span class="arith
 Verallgemeinerung mit mehr Menge, zum Beispiel drei:
 <span class="arithmatex">\(M_1 \times M_2 \times M_3 = \{(m_1, m_2, m_3) | m_1 \in M_1 \land m_2 \in M_2 \land m_3 \in M_3\}\)</span>.
 <br>
-Außerdem gilt <span class="arithmatex">\(M^{2} = M \times M\)</span>.</p>
+Außerdem gilt <span class="arithmatex">\(M^{2} = M \times M\)</span>.
+Da <span class="arithmatex">\(|\emptyset| = 0\)</span> gilt <span class="arithmatex">\(A \times \emptyset = \emptyset\)</span></p>
 <h2 id="relationen">Relationen</h2>
 <p>Relationen sind Teilmengen aller Paare, das heißt <span class="arithmatex">\(R \subseteq A \times B\)</span> ist eine Relation.</p>
 <h3 id="eigenschaften">Eigenschaften</h3>
 <ul>
-<li><span class="arithmatex">\(R\)</span> ist linkstotal oder injektiv, wenn für jedes <span class="arithmatex">\(a \in A\)</span> ein <span class="arithmatex">\(b \in B\)</span> existiert mit <span class="arithmatex">\((a, b) \in r\)</span></li>
-<li><span class="arithmatex">\(R\)</span> ist rechtseindeutig oder surjektiv, wenn es für kein <span class="arithmatex">\(a \in A\)</span> zwei <span class="arithmatex">\(b_1 \in B\)</span> und <span class="arithmatex">\(b_2 \in B\)</span> mit <span class="arithmatex">\(b_1 \neq b_2\)</span> gibt, so dass <span class="arithmatex">\((a, b_1) \in R\)</span> und <span class="arithmatex">\((a, b_2) \in R\)</span>.</li>
-<li><span class="arithmatex">\(R\)</span> ist rechtstotal wenn <span class="arithmatex">\(\forall b \in B \exists a \in A: (a, b) \in R\)</span>.</li>
-<li><span class="arithmatex">\(R\)</span> ist linkseindeutig wenn <span class="arithmatex">\(\forall(a_1, b_1) \in R\)</span> HIER WEITER</li>
+<li><span class="arithmatex">\(R\)</span> ist linkstotal, wenn für jedes <span class="arithmatex">\(a \in A\)</span> ein <span class="arithmatex">\(b \in B\)</span> existiert mit <span class="arithmatex">\((a, b) \in R\)</span></li>
+<li><span class="arithmatex">\(R\)</span> ist rechtseindeutig, wenn es für kein <span class="arithmatex">\(a \in A\)</span> zwei <span class="arithmatex">\(b_1 \in B\)</span> und <span class="arithmatex">\(b_2 \in B\)</span> mit <span class="arithmatex">\(b_1 \neq b_2\)</span> gibt, so dass <span class="arithmatex">\((a, b_1) \in R\)</span> und <span class="arithmatex">\((a, b_2) \in R\)</span>.</li>
+<li><span class="arithmatex">\(R\)</span> ist rechtstotal oder surjektiv wenn <span class="arithmatex">\(\forall b \in B \exists a \in A: (a, b) \in R\)</span>.</li>
+<li><span class="arithmatex">\(R\)</span> ist linkseindeutig oder injektiv wenn <span class="arithmatex">\(\forall b \in B\)</span> <strong>höchstens</strong> ein <span class="arithmatex">\(a \in A\)</span> existiert, sodass <span class="arithmatex">\((a, b) \in R\)</span>.</li>
 </ul>
 <p>Relationen die linkstotal und rechtseindeutig sind heißen <strong>Abbildungen</strong> oder <strong>Funktionen</strong>. Sie
 werden als bijektiv bezeichnet.</p>
 <h2 id="abbildungen">Abbildungen</h2>
 <p>Abbildungen sind bijektive Relationen. Sie werden wie folgt definiert:
 <span class="arithmatex">\(f: A \rightarrow B, n \rightarrow F(n)\)</span>.</p>
+<h2 id="potenzmengen">Potenzmengen</h2>
+<p>Potenzmengen sind alle Teilmengen einer Menge.<br>
+Sie wird geschrieben als <span class="arithmatex">\(2^M\)</span> oder <span class="arithmatex">\(P(M)\)</span>.</p>
+<h2 id="beweisschema-gleichheit-von-mengen">Beweisschema: Gleichheit von Mengen</h2>
+<p>Da die Identität einer Menge allein durch ihre Elemente gegeben ist, kann <span class="arithmatex">\(A=B\)</span> bewiesen werden
+indem gezeigt wird dass <span class="arithmatex">\(A \subseteq B\)</span> und <span class="arithmatex">\(B \subseteq A\)</span>.</p>
+<h2 id="menge-von-abbildungen">Menge von Abbildungen</h2>
+<p>Für <span class="arithmatex">\(A, B\)</span> ist <span class="arithmatex">\(A^B = \{f | f\)</span> Abb. von <span class="arithmatex">\(A\)</span>  nach <span class="arithmatex">\(B \}\)</span> also die Menge aller Abbildungen von <span class="arithmatex">\(A\)</span> nach <span class="arithmatex">\(B\)</span>. </p>
                 
                   
                     
@@ -784,7 +896,7 @@ werden als bijektiv bezeichnet.</p>
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 22, 2021</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 4, 2021</span>
       
     
   </small>
@@ -825,13 +937,13 @@ werden als bijektiv bezeichnet.</p>
       
       
         
-        <a href="../../proggen/organisatorisches/" class="md-footer__link md-footer__link--next" aria-label="Next: Organisatorisches" rel="next">
+        <a href="../woerter/" class="md-footer__link md-footer__link--next" aria-label="Next: Alphabete und Wörter" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Organisatorisches
+              Alphabete und Wörter
             </div>
           </div>
           <div class="md-footer__button md-icon">
