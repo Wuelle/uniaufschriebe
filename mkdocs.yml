@@ -54,6 +54,7 @@ nav:
     - "Lineare Algebra":
         - "Organisatorisches": "la/organisatorisches.md"
         - "Lineare Gleichungssysteme": "la/lgs.md"
+        - "Gruppen, Ringe und Körper": "la/gruppen_ringe_und_koerper.md"
     - "Höhere Mathematik":
         - "Organisatorisches": "hm/organisatorisches.md"
         - "Aussagenlogik": "hm/aussagenlogik.md"
