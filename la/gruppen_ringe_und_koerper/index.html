@@ -906,8 +906,8 @@
 <h2 id="gruppen">Gruppen</h2>
 <h3 id="verknupfungen">Verknüpfungen</h3>
 <h4 id="definition">Definition</h4>
-<p>Es sei <span class="arithmatex">\(A\)</span> eine Abbildung. Eine Verknüpfung $ * $ heißt:
-$ * : A \times A \rightarrow A, (x, y) \rightarrow x * y$.</p>
+<p>Es sei <span class="arithmatex">\(A\)</span> eine Abbildung. Eine Verknüpfung <span class="arithmatex">\(\star\)</span> heißt:
+<span class="arithmatex">\(\star : A \times A \rightarrow A, (x, y) \rightarrow x \star y\)</span>.</p>
 <h4 id="beispiele">Beispiele</h4>
 <ul>
 <li>Die Addition und die Multiplikation sind Verknüpfungen auf <span class="arithmatex">\(\mathbb{Z}\)</span>, aber nicht die Division (da nicht für <span class="arithmatex">\(y=0\)</span> definiert)</li>
@@ -915,40 +915,40 @@ $ * : A \times A \rightarrow A, (x, y) \rightarrow x * y$.</p>
 </ul>
 <h4 id="eigenschaften">Eigenschaften</h4>
 <p>Wir nennen eine Verknüpfung <strong>assoziativ</strong> wenn
-<span class="arithmatex">\(\forall a, b, c \in A: (a * b) * c = a * (b * c)\)</span>
+<span class="arithmatex">\(\forall a, b, c \in A: (a \star b) \star c = a \star (b \star c)\)</span>
 gilt und <strong>kommutativ</strong> wenn
-<span class="arithmatex">\(\forall a, b \in A: a * b = b * a\)</span>
+<span class="arithmatex">\(\forall a, b \in A: a \star b = b \star a\)</span>
 gilt.</p>
 <h4 id="das-neutrale-element">Das neutrale Element</h4>
-<p>Existiert ein Element <span class="arithmatex">\(e \in A\)</span> und ist $ * $ eine Verknüpfung auf <span class="arithmatex">\(A\)</span> mit
-<span class="arithmatex">\(\forall a \in A: a * e = a = e * a\)</span> so heißt <span class="arithmatex">\(e\)</span> das <strong>neutrale Element</strong>
-bezüglich $ * $. Es kann in jeder Verknüpfung höchstens ein einziges neutrales Element
+<p>Existiert ein Element <span class="arithmatex">\(e \in A\)</span> und ist <span class="arithmatex">\(\star\)</span> eine Verknüpfung auf <span class="arithmatex">\(A\)</span> mit
+<span class="arithmatex">\(\forall a \in A: a \star e = a = e \star a\)</span> so heißt <span class="arithmatex">\(e\)</span> das <strong>neutrale Element</strong>
+bezüglich <span class="arithmatex">\(\star\)</span>. Es kann in jeder Verknüpfung höchstens ein einziges neutrales Element
 geben.</p>
 <h3 id="definition_1">Definition</h3>
-<p>Eine <strong>Gruppe</strong> ist ein Paar <span class="arithmatex">\((G, * )\)</span>, bestehend aus einer nichtleeren Menge <span class="arithmatex">\(G\)</span> und einer Verknüpfung
-$ * $ auf G mit den folgenden Eigenschaften:</p>
+<p>Eine <strong>Gruppe</strong> ist ein Paar <span class="arithmatex">\((G, \star)\)</span>, bestehend aus einer nichtleeren Menge <span class="arithmatex">\(G\)</span> und einer Verknüpfung
+<span class="arithmatex">\(\star\)</span> auf G mit den folgenden Eigenschaften:</p>
 <ul>
-<li>(assoziativ) <span class="arithmatex">\(\forall a, b, c \in G: (a * b) * c = a * (b * c)\)</span></li>
-<li>(neutrales Element) <span class="arithmatex">\(\exists e \in G \forall a \in G: e * a = a =  a * e\)</span></li>
-<li>(inverses Element) <span class="arithmatex">\(\forall a \in G \exists a^{-1} \in G: a * a^{-1} = e = a^{-1} * a\)</span></li>
+<li>(assoziativ) <span class="arithmatex">\(\forall a, b, c \in G: (a \star b) \star c = a \star (b \star c)\)</span></li>
+<li>(neutrales Element) <span class="arithmatex">\(\exists e \in G \forall a \in G: e \star a = a =  a \star e\)</span></li>
+<li>(inverses Element) <span class="arithmatex">\(\forall a \in G \exists a^{-1} \in G: a \star a^{-1} = e = a^{-1} \star a\)</span></li>
 </ul>
 <p>Gilt außerdem</p>
 <ul>
-<li><span class="arithmatex">\(\forall a, b \in G: a * b = b * a\)</span></li>
+<li><span class="arithmatex">\(\forall a, b \in G: a \star b = b \star a\)</span></li>
 </ul>
 <p>so heißt die Gruppe <span class="arithmatex">\(G\)</span> <strong>abelsch</strong>.</p>
 <h3 id="beispiele_1">Beispiele</h3>
 <ul>
-<li><span class="arithmatex">\((\mathbb{Z}, \plus), (\mathbb{Q}, +), (\mathbb{\)</span>}\{0}, \cdot)$ sind abelsche Gruppen.</li>
-<li><span class="arithmatex">\((\mathbb{Z}\\n\mathbb{Z}, \plus)\)</span> ist eine abelsche Gruppe. <span class="arithmatex">\(\tilde{0}\)</span> ist das neutrale Element und <span class="arithmatex">\(\tilde{n-r}\)</span> ist das zu <span class="arithmatex">\(r\)</span> inverse Element.</li>
+<li><span class="arithmatex">\((\mathbb{Z}, +), (\mathbb{Q}, +), (\mathbb{R}\backslash \{0\}, \cdot)\)</span> sind abelsche Gruppen.</li>
+<li><span class="arithmatex">\((\mathbb{Z} \backslash n\mathbb{Z}, +)\)</span> ist eine abelsche Gruppe. <span class="arithmatex">\(\tilde{0}\)</span> ist das neutrale Element und <span class="arithmatex">\(\tilde{n-r}\)</span> ist das zu <span class="arithmatex">\(r\)</span> inverse Element.</li>
 </ul>
-<p>In einer Gruppe <span class="arithmatex">\(G\)</span> sind die Gleichungen <span class="arithmatex">\(a * x = b\)</span> und <span class="arithmatex">\(x * c = d\)</span> eindeutig nach <span class="arithmatex">\(x\)</span> lösbar.</p>
+<p>In einer Gruppe <span class="arithmatex">\(G\)</span> sind die Gleichungen <span class="arithmatex">\(a \star x = b\)</span> und <span class="arithmatex">\(x \star c = d\)</span> eindeutig nach <span class="arithmatex">\(x\)</span> lösbar.</p>
 <h3 id="homomorphismen">Homomorphismen</h3>
 <p>Strukturerhaltende Abbildungen werden <strong>Homomorphismen</strong> genannt.
 Ein bijektiver Homomorpismus heißt <strong>Isomorphismus</strong>.</p>
-<p>Seien <span class="arithmatex">\((G, * )\)</span> und <span class="arithmatex">\((H, \cdot)\)</span> zwei Gruppen und <span class="arithmatex">\(\phi\)</span> eine Abbildung von <span class="arithmatex">\(G\)</span> auf <span class="arithmatex">\(H\)</span>.
+<p>Seien <span class="arithmatex">\((G, \star )\)</span> und <span class="arithmatex">\((H, \cdot)\)</span> zwei Gruppen und <span class="arithmatex">\(\phi\)</span> eine Abbildung von <span class="arithmatex">\(G\)</span> auf <span class="arithmatex">\(H\)</span>.
 Die Abbildung <span class="arithmatex">\(\phi\)</span> heißt <strong>Homomorphismus</strong> genau dann wenn:<br>
-<span class="arithmatex">\(\forall x, y \in G: \phi(x * y) = \phi(x) \cdot \phi(y)\)</span>.</p>
+<span class="arithmatex">\(\forall x, y \in G: \phi(x \star y) = \phi(x) \cdot \phi(y)\)</span>.</p>
 <p>Wenn die Mengen <span class="arithmatex">\(G\)</span> und <span class="arithmatex">\(H\)</span> gleich sind(also wenn <span class="arithmatex">\(\phi\)</span> eine Selbstabbildung ist), so spricht man von einem <strong>Endomorphismus</strong>.
 Ein bijektiver Endomorphismus heißt <strong>Automorphismus</strong>.</p>
 <h2 id="ringe">Ringe</h2>
@@ -977,7 +977,7 @@ wenn für alle <span class="arithmatex">\(x, y \in R_1\)</span> gilt:<br></p>
 <li><span class="arithmatex">\(\phi(x \cdot y) = \phi(x) \cdot \phi(y)\)</span></li>
 </ul>
 <h2 id="korper">Körper</h2>
-<p>Ein Ring <span class="arithmatex">\((\mathbb{K}, +, \cdot)\)</span> für den <span class="arithmatex">\((\mathbb{K}\\\{0\}, \cdot)\)</span> eine abelsche Gruppe ist, heißt <strong>Körper</strong>.
+<p>Ein Ring <span class="arithmatex">\((\mathbb{K}, +, \cdot)\)</span> für den <span class="arithmatex">\((\mathbb{K}\backslash \{0\}, \cdot)\)</span> eine abelsche Gruppe ist, heißt <strong>Körper</strong>.
 Ein Körper ist also ein kommutativer Ring mit Eins, bei dem jedes Element ein multiplikatives Inverses besitzt.
 In einem Körper kann es keine Nullteiler geben. (Beweis siehe Skript)</p>
 <h3 id="beispiele_3">Beispiele</h3>
@@ -989,7 +989,7 @@ In einem Körper kann es keine Nullteiler geben. (Beweis siehe Skript)</p>
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 9, 2021</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 13, 2021</span>
       
     
   </small>
