@@ -2,8 +2,8 @@
 ## Gruppen
 ### Verknüpfungen
 #### Definition
-Es sei $A$ eine Abbildung. Eine Verknüpfung $ * $ heißt:
-$ * : A \times A \rightarrow A, (x, y) \rightarrow x * y$.
+Es sei $A$ eine Abbildung. Eine Verknüpfung $\star$ heißt:
+$\star : A \times A \rightarrow A, (x, y) \rightarrow x \star y$.
 
 #### Beispiele
 
@@ -12,47 +12,48 @@ $ * : A \times A \rightarrow A, (x, y) \rightarrow x * y$.
 
 #### Eigenschaften
 Wir nennen eine Verknüpfung **assoziativ** wenn
-$\forall a, b, c \in A: (a * b) * c = a * (b * c)$
+$\forall a, b, c \in A: (a \star b) \star c = a \star (b \star c)$
 gilt und **kommutativ** wenn
-$\forall a, b \in A: a * b = b * a$
+$\forall a, b \in A: a \star b = b \star a$
 gilt.
 
 #### Das neutrale Element
-Existiert ein Element $e \in A$ und ist $ * $ eine Verknüpfung auf $A$ mit
-$\forall a \in A: a * e = a = e * a$ so heißt $e$ das **neutrale Element**
-bezüglich $ * $. Es kann in jeder Verknüpfung höchstens ein einziges neutrales Element
+Existiert ein Element $e \in A$ und ist $\star$ eine Verknüpfung auf $A$ mit
+$\forall a \in A: a \star e = a = e \star a$ so heißt $e$ das **neutrale Element**
+bezüglich $\star$. Es kann in jeder Verknüpfung höchstens ein einziges neutrales Element
 geben.
 
 ### Definition
-Eine **Gruppe** ist ein Paar $(G, * )$, bestehend aus einer nichtleeren Menge $G$ und einer Verknüpfung
-$ * $ auf G mit den folgenden Eigenschaften:
+Eine **Gruppe** ist ein Paar $(G, \star)$, bestehend aus einer nichtleeren Menge $G$ und einer Verknüpfung
+$\star$ auf G mit den folgenden Eigenschaften:
 
-* (assoziativ) $\forall a, b, c \in G: (a * b) * c = a * (b * c)$
-* (neutrales Element) $\exists e \in G \forall a \in G: e * a = a =  a * e$
-* (inverses Element) $\forall a \in G \exists a^{-1} \in G: a * a^{-1} = e = a^{-1} * a$
+* (assoziativ) $\forall a, b, c \in G: (a \star b) \star c = a \star (b \star c)$
+* (neutrales Element) $\exists e \in G \forall a \in G: e \star a = a =  a \star e$
+* (inverses Element) $\forall a \in G \exists a^{-1} \in G: a \star a^{-1} = e = a^{-1} \star a$
 
 Gilt außerdem
 
-* $\forall a, b \in G: a * b = b * a$
+* $\forall a, b \in G: a \star b = b \star a$
 
 so heißt die Gruppe $G$ **abelsch**.
 
 ### Beispiele
-* $(\mathbb{Z}, \plus), (\mathbb{Q}, +), (\mathbb{$}\\\{0\}, \cdot)$ sind abelsche Gruppen.
-* $(\mathbb{Z}\\n\mathbb{Z}, \plus)$ ist eine abelsche Gruppe. $\tilde{0}$ ist das neutrale Element und $\tilde{n-r}$ ist das zu $r$ inverse Element.
+* $(\mathbb{Z}, +), (\mathbb{Q}, +), (\mathbb{R}\backslash \{0\}, \cdot)$ sind abelsche Gruppen.
+* $(\mathbb{Z} \backslash n\mathbb{Z}, +)$ ist eine abelsche Gruppe. $\tilde{0}$ ist das neutrale Element und $\tilde{n-r}$ ist das zu $r$ inverse Element.
 
-In einer Gruppe $G$ sind die Gleichungen $a * x = b$ und $x * c = d$ eindeutig nach $x$ lösbar.
+In einer Gruppe $G$ sind die Gleichungen $a \star x = b$ und $x \star c = d$ eindeutig nach $x$ lösbar.
 
 ### Homomorphismen
 Strukturerhaltende Abbildungen werden **Homomorphismen** genannt.
 Ein bijektiver Homomorpismus heißt **Isomorphismus**.
 
-Seien $(G, * )$ und $(H, \cdot)$ zwei Gruppen und $\phi$ eine Abbildung von $G$ auf $H$.
+Seien $(G, \star )$ und $(H, \cdot)$ zwei Gruppen und $\phi$ eine Abbildung von $G$ auf $H$.
 Die Abbildung $\phi$ heißt **Homomorphismus** genau dann wenn:<br>
-$\forall x, y \in G: \phi(x * y) = \phi(x) \cdot \phi(y)$.
+$\forall x, y \in G: \phi(x \star y) = \phi(x) \cdot \phi(y)$.
 
 Wenn die Mengen $G$ und $H$ gleich sind(also wenn $\phi$ eine Selbstabbildung ist), so spricht man von einem **Endomorphismus**.
 Ein bijektiver Endomorphismus heißt **Automorphismus**.
+
 ## Ringe
 Ein **Ring** ist eine Menge $R$ mit den zwei Verknüpfungen $+$ und $\cdot$ wobei gilt:
 
@@ -82,7 +83,7 @@ wenn für alle $x, y \in R_1$ gilt:<br>
 
 
 ## Körper
-Ein Ring $(\mathbb{K}, +, \cdot)$ für den $(\mathbb{K}\\\{0\}, \cdot)$ eine abelsche Gruppe ist, heißt **Körper**.
+Ein Ring $(\mathbb{K}, +, \cdot)$ für den $(\mathbb{K}\backslash \{0\}, \cdot)$ eine abelsche Gruppe ist, heißt **Körper**.
 Ein Körper ist also ein kommutativer Ring mit Eins, bei dem jedes Element ein multiplikatives Inverses besitzt.
 In einem Körper kann es keine Nullteiler geben. (Beweis siehe Skript)
 
