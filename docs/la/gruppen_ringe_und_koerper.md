@@ -88,4 +88,18 @@ Ein Körper ist also ein kommutativer Ring mit Eins, bei dem jedes Element ein m
 In einem Körper kann es keine Nullteiler geben. (Beweis siehe Skript)
 
 ### Beispiele
+#### Die Komplexen Zahlen
+Die Menge $\mathbb{C}$ wird als $\mathbb{R} \times \mathbb{R}$ definiert. Außerdem definieren wir zwei Verknüpfungen:
+
+* $(a_1, b_1) + (a_2, b_2) = (a_1 + a_2,b_1 + b_2)$
+* $(a_1, b_1) \times (a_2, b_2) = (a_1 \times a_2 - b_1 \times b_2,a_1 \times b_2 + a_2 \times b_1)$
+
+Die imaginäre Zahl $(a, b)$ wird im folgenden geschrieben als $\Im(a+ib)$. Dabei heißt $a$ der **Realteil** und
+$b$ der **Imaginärteil**.
+Es gilt: $i^2 = -1$.
+
+Außerdem werden Konjugation und Betrag wie folgt definiert:
+
+* $\bar{z} = \bar{a + bi} = a - bi$
+* $\sqrt{z} = \sqrt{a^2 + b^2} = \sqrt{z \times \bar{z}}$
 
