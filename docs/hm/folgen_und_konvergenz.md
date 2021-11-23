@@ -59,6 +59,63 @@ $\alpha \times (a_n) = (\alpha \times a_n)$.<br>
 $(a_n) \times (b_n) := (a_n \times b_n)$.<br>
 Ist $b_n \neq 0$ so ist $\frac{(a_n)}{(b_n)}$ definiert.<br>
 
+!!! hint "Sath 2.2"
+	Seien $(a_n), (b_n), (c_n), (\alpha _n)$ Folgen und $a, b, \alpha \in \mathbb{R}$.
+
+	* $(a_n) \rightarrow a \leftrightarrow |a_n - a| \rightarrow 0$
+	* Gilt $|a_n - a| \leq \alpha _n$ ffa $n \in \mathbb{N}$ und $\alpha _n \rightarrow 0$ so gilt $a_n \rightarrow a$
+
+	* Es gelte $a_n \rightarrow a$ und $b_n \rightarrow b$. Dann gilt $|a_n| \rightarrow |a|$ und $a_n + b_n \rightarrow a + b$. Außerdem gilt $\alpha \times a_n \rightarrow \alpha \times a$ und $a_n \times b_n \rightarrow a \times b$. Ist $a \neq 0$ dann existiert ein $m \in \mathbb{N}$ mit $a_n \neq 0$ für $n \geq m$ und für die Folge $\frac{1}{a_n}$ mit $m \leq n \leq \infty$ gilt $\frac{1}{a_n} \rightarrow \frac{1}{a}$.
+	* Es gelte $a_n \rightarrow a$ und $b_n \rightarrow b$ und $a_n \leq b_n$ ffa $n \in \mathbb{N}$. Dann ist $a \leq b$.
+	* Es gelte $a_n \rightarrow a$ und $b_n \rightarrow a$ und $a_n \leq c_n \leq b_n$ ffa $n \in \mathbb{N}$. Dann gilt $c_n \rightarrow a$
+
+## Monotoniekriterium
+$(a_n)$ heißt **monoton wachsend** wenn $\forall n \in \mathbb{N}: a_n \leq a_{n+1}$.<br>
+$(a_n)$ heißt **monoton fallend** wenn $\forall n \in \mathbb{N}: a_n \geq a_{n+1}$.<br>
+$(a_n)$ heißt **streng monoton wachsend** wenn $\forall n \in \mathbb{N}: a_n < a_{n+1}$.<br>
+$(a_n)$ heißt **streng monoton fallend** wenn $\forall n \in \mathbb{N}: a_n > a_{n+1}$.<br>
+
+!!! hint "Satz 2.3"
+	
+	* $(a_n)$ sei wachsend und nach oben beschränkt. Dann ist $(a_n)$ konvergent und $\lim a_n = \sup a_n$.
+	* $(a_n)$ sei fallend und nach unten beschränkt. Dann ist $(a_n)$ konvergent und $\lim a_n = \inf a_n$.
+
+## Teilfolgen
+Sei $(a_n)$ eine Folge und $(n_k)$ eine Folge in $\mathbb{N}$ die streng monoton wächst. Setze
+$b_k = a_{n_k}$ mit $k \in \mathbb{N}$. Dann heißt $(b_k)$ eine **Teilfolge** von $(a_n)$.<br>
+Zum Beispiel könnte man dadurch jedes Zweite Element einer Folge erhalten.<br>
+Eine Zahl $\alpha \in \mathbb{R}$ heißt **Häufungswert** von $(a_n)$, wenn eine TF $(a_{n_k})$ existiert
+mit $a_{n_k} \rightarrow \alpha$. Die Menge $H(a_n)$ ist definiert als die Menge aller Häufungswerte
+von $(a_n)$.
+
+!!! hint "Satz 2.10"
+	Es gilt $\alpha \in H(a_n) \leftrightarrow \forall \epsilon > 0: a_n \in U_{\epsilon}(\alpha)$ für unendlich
+	viele $n \in \mathbb{N}$.
+
+!!! hint "Satz 2.11"
+	Die Folge $(a_n)$ sei gegen $a$ konvergent und $(a_{n_k})$ sei eine TF von $(a_n)$. Dann
+	gilt auch $(a_{n_k}) \rightarrow a$.
+
+Jede Folge besitzt entweder monoton wachsende oder monoton fallende Teilfolgen. (Siehe Skript)
+
+!!! hint "Satz 2.13 (Bolzano-Weierstrauß)"
+	Die Folge $(a_n)$ sei beschränkt. Dann ist $H(a_n) \neq \emptyset$.
+	Folglich besitzt
+
+!!! hint "Satz 2.14"
+	Sei $(a_n)$ eine beschränkte Folge. Also ist nach 2.13 $H(a_n) \neq \emptyset$.
+	Es gilt
+
+		* Die Menge der Häufungswerte ist beschränkt 
+		* $\sup H(a_n) \in H(a_n)$ und $\inf H(a_n) \in H(a_n)$
+
+$\max H(a_n)$ wird $\limsup a_n$ (und $\min H(a_n)$ $\liminf a_n$) genannt.
+
+## Cauchy-Folge
+Eine Folge $(a_n) heißt **Cauchy Folge** $\leftrightarrow \forall \epsilon > 0: \exists n_0 \in \mathbb{N} \forall m, n \geq n_0: |a_m - a_n| < \epsilon$. Konvergente Folgen sind immer Cauchy Folgen und Cauchy Folgen sind
+immer konvergent.
 
 
 *[ffa]: für fast alle
+*[TF]: Teilfolge
+*[HW]: Häufungswert

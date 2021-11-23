@@ -55,17 +55,22 @@ nav:
         - "Organisatorisches": "la/organisatorisches.md"
         - "Lineare Gleichungssysteme": "la/lgs.md"
         - "Gruppen, Ringe und Körper": "la/gruppen_ringe_und_koerper.md"
+        - "Vektorraume": "la/vektorraume.md"
     - "Höhere Mathematik":
         - "Organisatorisches": "hm/organisatorisches.md"
         - "Aussagenlogik": "hm/aussagenlogik.md"
         - "Reelle Zahlen": "hm/reelle_zahlen.md"
         - "Natürliche Zahlen": "hm/natürliche_zahlen.md"
         - "Folgen und Konvergenz": "hm/folgen_und_konvergenz.md"
+        - "Unendliche Reihen": "hm/unendlich_reihen.md"
     - "Grundbegriffe der Informatik":
         - "Organisatorisches": "gbi/organisatorisches.md"
         - "Grundbegriffe": "gbi/grundbegriffe.md"
         - "Mengenlehre": "gbi/mengenlehre.md"
         - "Alphabete und Wörter": "gbi/woerter.md"
+        - "Übersetzungen und Codierungen": "gbi/uebersetzungen_und_codierungen.md"
+        - "Boolesche Funktionen": "gbi/boolesche_funktionen.md"
+        - "Boolesche Funktionen": "gbi/boolesche_funktionen.md"
     - "Programmieren":
         - "Organisatorisches": "proggen/organisatorisches.md"
         - "Grundlagen": "proggen/grundlagen.md"
