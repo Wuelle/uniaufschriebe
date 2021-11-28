@@ -55,7 +55,7 @@ nav:
         - "Organisatorisches": "la/organisatorisches.md"
         - "Lineare Gleichungssysteme": "la/lgs.md"
         - "Gruppen, Ringe und Körper": "la/gruppen_ringe_und_koerper.md"
-        - "Vektorraume": "la/vektorraume.md"
+        - "Vektorräume": "la/vektorraume.md"
         - "Matrizen": "la/matrizen.md"
         - "Polynome": "la/polynome.md"
     - "Höhere Mathematik":
