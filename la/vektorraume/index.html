@@ -759,7 +759,7 @@
                 <h1 id="vektorraume">Vektorräume</h1>
 <h2 id="definition">Definition</h2>
 <p>Sei <span class="arithmatex">\(\mathbb{K}\)</span> ein Koerper. Eine Menge <span class="arithmatex">\(V\)</span> mit der Addition<br>
-<span class="arithmatex">\(+: V + V \rightarrow V, (a, b) \righarrow a + b\)</span> <br>
+<span class="arithmatex">\(+: V + V \rightarrow V, (a, b) \rightarrow a + b\)</span> <br>
 und der skalaren Multiplikation<br>
 <span class="arithmatex">\(\times: \mathbb{K} \times V \rightarrow V, (\lambda, x) \rightarrow \lambda \times x\)</span><br>
 heißt <span class="arithmatex">\(\mathbb{K}\)</span>-Vektorraum falls die folgenden Axiome gelten: <br></p>
@@ -769,7 +769,7 @@ heißt <span class="arithmatex">\(\mathbb{K}\)</span>-Vektorraum falls die folge
 <li><span class="arithmatex">\(1 \times x = x\)</span></li>
 <li><span class="arithmatex">\(\lambda \times (\alpha \times x) = (\lambda \times \alpha) \times x\)</span></li>
 <li><span class="arithmatex">\((\lambda + \alpha) \times x = \lambda \times x + \alpha \times x\)</span></li>
-<li><span class="arithmatex">\(\lambda \times (x + y) = \lamda \times x + \lambda \times y\)</span></li>
+<li><span class="arithmatex">\(\lambda \times (x + y) = \lambda \times x + \lambda \times y\)</span></li>
 </ul>
 </li>
 </ul>
@@ -791,8 +791,20 @@ nichttriviale Darstellung des Nullvektors ist nicht immer machbar.</p>
 <h2 id="lineare-unabhangigkeit">Lineare Unabhängigkeit</h2>
 <p>Ein Vektorraum heißt <strong>linear unabhängig</strong> wenn keine nichttriviale Darstellung
 des Nullvektors existiert. Ist ein Vektorraum nicht linear unabhängig, so heißt er
-<strong>linear abhängig</strong>.<br></p>
+<strong>linear abhängig</strong>.<br>
+Die lineare Unabhängigkeit einer Menge an Vektoren bleibt durch Elementaroperationen
+unverändert.</p>
 <p>Die leere Menge ist als linear unabhängig definiert.</p>
+<h2 id="lineare-hulle">Lineare Hülle</h2>
+<p>Sei <span class="arithmatex">\(V\)</span> ein Vektorraum und <span class="arithmatex">\(M \in V\)</span>. Dann heißt die Menge aller Linearkombinationen
+von <span class="arithmatex">\(M\)</span> die <strong>Lineare Hülle</strong> oder der <strong>Spann[M]</strong> von <span class="arithmatex">\(M\)</span>.
+Die lineare Hülle bleibt durch Elementaroperationen unverändert.
+Dabei heißt <span class="arithmatex">\(M\)</span> die <strong>erzeugende Menge</strong> der linearen Hülle.
+Eine erzeugende Menge die gleichzeitig linear unabhängig ist heißt <strong>Basis</strong> des
+Vektorraums <span class="arithmatex">\(V\)</span>. Eine Teilmenge ist genau dann eine <strong>Basis</strong> wenn sie auch
+ein minimales (kleinstmoegliches) Erzeugendensystem ist.</p>
+<h3 id="spezialfall">Spezialfall</h3>
+<p>Für <span class="arithmatex">\(M = \emptyset\)</span> definieren wir <span class="arithmatex">\([\emptyset] = \{0\}\)</span>.</p>
                 
                   
                     
@@ -801,7 +813,7 @@ des Nullvektors existiert. Ist ein Vektorraum nicht linear unabhängig, so heiß
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 28, 2021</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 30, 2021</span>
       
     
   </small>
